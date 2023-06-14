@@ -26,10 +26,11 @@ body {
   cursor: pointer;
   background-color: rgb(50, 178, 248);
   font-weight: 500;
+  transition: all 0.5s ease;
 }
 
 .btn-show:hover {
-  transform: translateX(-20deg);
+  transform: translatey(-0.5rem);
 }
 
 .pop-up {
@@ -44,7 +45,7 @@ body {
   font-size: 42px;
   font-weight: 700;
   text-align: center;
-  margin-top: -4rem;
+  margin-top: -3.5rem;
 }
 
 .close-btn {
