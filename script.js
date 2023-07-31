@@ -37,6 +37,7 @@ btnCloseModalTwo.addEventListener('click', function () {
 
 document.addEventListener('keydown', function (event) {
   if (event.key === 'Escape') {
-    modalWindow.classList.add('popup');
+    modalWindowOne.classList.add('popup-one');
+    modalWindowTwo.classList.add('popup-two');
   }
 });
